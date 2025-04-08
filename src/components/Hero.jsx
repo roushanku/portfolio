@@ -3,6 +3,9 @@ import React from "react";
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin} from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
+import RoushanImage from '../../public/WhatsApp Image 2025-04-08 at 5.17.19 PM.jpeg';
+import codeforces from '../../public/codeforces.png';
+import leetcode from '../../public/leetcode.png';
 
 const Hero = () => {
   return (
@@ -87,7 +90,7 @@ const Hero = () => {
               className="text-2xl text-gray-700 dark:text-gray-300 hover:text-yellow-500 transition-colors duration-300"
             >
               <img
-                src="src/leetcode.png"
+                src={leetcode}
                 alt="LeetCode"
                 className="w-6 h-6 object-contain inline-block"
               />
@@ -101,7 +104,7 @@ const Hero = () => {
               className="text-2xl text-gray-700 dark:text-gray-300 hover:text-red-500 transition-colors duration-300"
             >
               <img
-                src="src/codeforces.png"
+                src={codeforces}
                 alt="Codeforces"
                 className="w-6 h-6 object-contain inline-block"
               />
@@ -119,7 +122,7 @@ const Hero = () => {
             <div className="w-full h-full rounded-full overflow-hidden bg-gray-200 dark:bg-gray-800">
               <div className="w-full h-full flex items-center justify-center text-gray-500 dark:text-gray-400">
                 <img
-                  src="src/WhatsApp Image 2025-04-08 at 5.17.19 PM.jpeg"
+                  src={RoushanImage}
                   alt="Profile"
                   className="w-full h-full object-cover rounded-full"
                 />
