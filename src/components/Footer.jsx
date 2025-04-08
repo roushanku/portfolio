@@ -13,7 +13,7 @@ const Footer = () => {
 
           <div className="flex space-x-5 justify-center md:justify-end">
             <a
-              href="https://github.com/your-github"
+              href="https://github.com/roushanku"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-500 hover:text-blue-600 transition"
@@ -21,20 +21,12 @@ const Footer = () => {
               <FaGithub size={20} />
             </a>
             <a
-              href="https://linkedin.com/in/your-linkedin"
+              href="https://www.linkedin.com/in/roushan70700/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-500 hover:text-blue-600 transition"
             >
               <FaLinkedin size={20} />
-            </a>
-            <a
-              href="https://twitter.com/your-twitter"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-500 hover:text-blue-600 transition"
-            >
-              <FaTwitter size={20} />
             </a>
           </div>
         </div>
